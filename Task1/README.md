@@ -21,3 +21,26 @@ If the condition is FATAL ERROR, then the supervisor terminates the work of the 
 
 All status changes must be accompanied by appropriate messages in the console.
 The supervisor should not miss any status of the abstract program. Use constructions with wait/notify.
+
+
+
+## Project structure
+For illustration, here is the project structure:
+
+```
+.
+├── out
+│   └── production
+│       └── Task1_OOP
+├── program.log
+├── README.md
+├── src
+│   └── main
+│       ├── AbstractProgram.java
+│       ├── LoggerConfig.java
+│       ├── Main.java
+│       ├── ProgramState.java
+│       └── Supervisor.java
+└── Task1_OOP.iml
+
+```
